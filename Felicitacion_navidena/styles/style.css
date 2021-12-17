@@ -1,0 +1,419 @@
+body{
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.estrella{
+   font-size: 15px;
+   color: rgb(229, 255, 0);
+   position: absolute;
+   animation-name: estrellas;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+#estrella1{
+    left: 50px;
+    animation-delay: 0s;
+}
+#estrella2{
+    left: 250px;
+    top: 200px;
+    animation-delay: 2s;
+}
+#estrella3{
+    left: 500px;
+    top: 100px;
+    animation-delay: 2s;
+}
+#estrella4{
+    left: 700px;
+    animation-delay: 1s;
+}
+#estrella5{
+    left: 1000px;
+    top: 200px;
+    animation-delay: 3.5s;
+}
+#estrella6{
+    left: 1300px;
+    top: 50px;
+    animation-delay: 4s;
+}
+#estrella7{
+    left: 850px;
+    top: 350px;
+    animation-delay: 3s;
+}
+#estrella8{
+    left: 600px;
+    top: 250px;
+    animation-delay: 2.5s;
+}
+#estrella9{
+    left: 800px;
+    top: 130px;
+}
+#estrella10{
+    left: 100px;
+    top: 150px;
+    animation-delay: 1.5s;
+}
+@keyframes estrellas {
+    0%{
+        color: yellow;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        color: yellow;
+    }
+}
+.papa{
+    position: absolute;
+     width: 150px;
+     height: 150px;
+     bottom: 100px;
+     right: 600px;
+     animation-name: papa;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     z-index: 2;
+}
+@keyframes papa {
+    0%{
+        bottom: 250px;
+        left: 800px;
+        width: 50px;
+        height: 50px;
+    }
+    25%{
+        bottom: 150px;
+        left: 500px;
+        width: 150px;
+        height: 150px;
+    }
+    50%{
+        bottom: 50px;
+        left: 350px;
+    }
+    75%{
+        bottom: 150px;
+        left: 200px;
+    }
+    100%{
+        bottom: 100px;
+        left: -150px;
+    }
+}
+ .pinguino{
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     bottom: 100px;
+     left: 200px;
+     animation-name: pinguino;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     z-index: 3;
+ }
+ @keyframes pinguino {
+    0%{
+        bottom: 100px;
+        left: -50px;
+    }
+    10%{
+        bottom: 100px;
+        left: 150px;
+    }
+    20%{
+        bottom: 150px;
+        left: 250px;
+    }
+    40%{
+        bottom: 50px;
+        left: 350px;
+    }
+    60%{
+        bottom: 150px;
+        left: 500px;
+        
+    }
+    80%{
+        bottom: 50px;
+        left: 600px;
+
+    }
+
+    90%{
+        bottom: 150px;
+        left: 700px;
+        opacity: 100;
+        
+    }
+    100%{
+        bottom: 150px;
+        left: 750px;
+        opacity: 0;
+    }
+}
+.renos{
+    position: absolute;
+     width: 300px;
+     height: 100px;
+     top: 100px;
+     right: -300px;
+     animation-name: renos;
+     animation-duration: 7s;
+     animation-iteration-count: infinite;
+     z-index: 10;
+}
+@keyframes renos {
+    0%{
+        top: 50px;
+        right: -300px;
+
+    }
+    25%{
+        top: 200px;
+        right: 200px;
+        transform: rotate(-30deg);
+    }
+    50%{
+        top: 100px;
+        right: 500px;
+        transform: rotate(10deg);
+    }
+    75%{
+        top: 150px;
+        right: 700px;
+        transform: rotate(-20deg);
+    }
+    100%{
+        top: 100px;
+        right: 1500px;
+    }
+}
+.parrafo{
+    color: white;
+    opacity: 50%;
+    font-family: cursive;    
+    position: absolute;
+    width: 250px;
+    left: 500px;
+    top: 250px;
+}
+
+.letra{
+    position: absolute;
+    font-family: "Corinthia", sans-serif, cursive;
+    font-size: 60px;
+    color: white;
+    opacity: 50%;
+}
+
+@keyframes letra1{
+   
+    100%{
+        left: 600px;
+        top: 100px;
+    }
+}
+
+#letra1{
+    left: -50px;
+    top: 100px;
+    animation-name: letra1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+@keyframes letra2{
+  
+    100%{
+        left: 650px;
+        top: 100px;
+    }
+}
+
+#letra2{
+    left: -50px;
+    top: 100px;
+    animation-name: letra2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes letra3{
+ 
+    100%{
+        left: 700px;
+        top: 100px;
+    }
+}
+
+#letra3{
+    left: -50px;
+    top: 100px;
+    animation-name: letra3;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes letra4{
+  
+    100%{
+        left: 750px;
+        top: 100px;
+    }
+}
+
+#letra4{
+    left: -50px;
+    top: 100px;
+    animation-name: letra4;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes letra5{
+  
+    100%{
+        left: 800px;
+        top: 100px;
+    }
+}
+
+#letra5{
+    left: -50px;
+    top: 100px;
+    animation-name: letra5;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes letra6{
+    
+    100%{
+        left: 550px;
+        top: 150px;
+    }
+}
+
+#letra6{
+    left: -50px;
+    top: 150px;
+    animation-name: letra6;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes letra7{
+    
+    100%{
+        left: 600px;
+        top: 150px;
+    }
+}
+
+#letra7{
+    left: -50px;
+    top: 150px;
+    animation-name: letra7;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes letra8{
+  
+    100%{
+        left: 650px;
+        top: 150px;
+    }
+}
+
+#letra8{
+    left: -50px;
+    top: 150px;
+    animation-name: letra8;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes letra9{
+    
+    100%{
+        left: 700px;
+        top: 150px;
+    }
+}
+
+#letra9{
+    left: -50px;
+    top: 150px;
+    animation-name: letra9;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes letra10{
+    
+    100%{
+        left: 750px;
+        top: 150px;
+    }
+}
+
+#letra10{
+    left: -50px;
+    top: 150px;
+    animation-name: letra10;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+@keyframes letra11{
+   
+    100%{
+        left: 800px;
+        top: 150px;
+    }
+}
+
+#letra11{
+    left: -50px;
+    top: 150px;
+    animation-name: letra11;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+@keyframes letra12{
+    100%{
+        left: 850px;
+        top: 150px;
+    }
+}
+
+#letra12{
+    left: -50px;
+    top: 150px;
+    animation-name: letra12;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+.letra13{
+    position: absolute;
+    left: -50px;
+    top: 150px;
+}
